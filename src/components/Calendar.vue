@@ -93,6 +93,8 @@ export default {
       return new Date(
         this.currentYear,
         this.currentMonth
+
+        
       ).toLocaleString("default", { month: "long" });
     },
   },
